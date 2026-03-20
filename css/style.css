@@ -151,20 +151,20 @@ body::before {
 /* Profile photo */
 .hero-profile {
   position: relative;
-  width: 90px; height: 90px;
-  margin-bottom: 1.4rem;
+  width: 140px; height: 140px;
+  margin-bottom: 1.6rem;
   opacity: 0;
   animation: fadeUp 0.6s 0.28s forwards;
 }
 
 .profile-img {
-  width: 90px; height: 90px;
+  width: 140px; height: 140px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
   position: relative;
   z-index: 2;
-  border: 2px solid rgba(125,249,170,0.35);
+  border: 3px solid rgba(125,249,170,0.4);
 }
 
 .profile-ring {
